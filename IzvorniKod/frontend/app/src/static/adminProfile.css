@@ -1,0 +1,71 @@
+.adminChoose .react-tabs {
+  display: flex;
+  margin-left: 36px;
+  width: 95vw;
+  height: 400px;
+  color: black;
+}
+
+.adminChoose .react-tabs__tab-list {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.adminChoose .react-tabs__tab {
+  height: 70px;
+  list-style: none;
+  padding: 12px 6px;
+  cursor: pointer;
+  color: #bbb;
+}
+
+.adminChoose .react-tabs__tab--selected {
+  border-color: #1c1d1f;
+  border-left: 4px solid blue;
+  color: black;
+}
+
+.adminChoose .react-tabs__tab-panel {
+  display: none;
+  width: 100vw;
+}
+
+.adminChoose .react-tabs__tab-panel--selected {
+  display: block;
+}
+
+.adminChoose .react-tabs__tab {
+  padding-left: 24px;
+}
+
+.adminChoose .react-tabs__tab--selected {
+  padding-left: 21px;
+}
+
+.adminChoose .panel-content {
+  text-align: center;
+}
+
+.col-lg-6 {
+  text-align: start;
+}
+
+.admin-text {
+  font-size: 3em;
+}
+
+.bigger-text {
+  font-size: 1.5em;
+}
+
+.darker {
+  background:
+        /* top, transparent black, faked with gradient */ linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+}

@@ -1,0 +1,44 @@
+.walkersTitle {
+  width: 65vw;
+  height: 6vh;
+  position: relative;
+  left: 5vw;
+  font-size: 3.3vw;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  line-height: 9vh;
+  z-index: 10 !important;
+}
+
+.paws-img {
+  top: -1vw;
+  position: relative;
+  left: 17vw;
+  height: 8vw;
+  width: 12vw;
+  background-image: url("./udruge_dog_2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 10 !important;
+}
+
+.walkers-header {
+  display: flex;
+  position: relative;
+  width: 95vw;
+  z-index: 10 !important;
+}
+
+.walkers-table {
+  top: -4.4vw;
+  position: relative;
+  z-index: 1 !important;
+}
+
+.darker {
+  background:
+        /* top, transparent black, faked with gradient */ linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+}

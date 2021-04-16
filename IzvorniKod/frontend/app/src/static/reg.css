@@ -1,0 +1,76 @@
+input {
+  margin-top: 10px !important;
+}
+
+.container {
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+}
+.lead-reg {
+  max-width: 40%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 110vh;
+}
+
+.bg {
+  height: 90vh;
+}
+
+.form-reg {
+  background-color: transparent;
+  font-family: "Rubik", sans-serif;
+}
+
+.setac {
+  color: black;
+}
+.udruga {
+  color: grey;
+}
+
+.setac:hover,
+.udruga:hover {
+  color: black;
+}
+
+@media only screen and (min-width: 768px) {
+  .white-container {
+    padding: 3rem !important;
+  }
+
+  .ui.container.stackable.middle.aligned.grid {
+    margin-top: 10em;
+    text-align: center;
+  }
+  .container {
+    margin-top: 5em;
+  }
+
+  .input {
+    font-size: 2em;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+}
+
+.other-text {
+  color: black;
+  font-size: 18px;
+}
+
+.darker {
+  background:
+        /* top, transparent black, faked with gradient */ linear-gradient(
+    rgba(255, 255, 255, 0.178),
+    rgba(255, 255, 255, 0.178)
+  );
+}
+
+.next {
+  background-color: transparent !important;
+}

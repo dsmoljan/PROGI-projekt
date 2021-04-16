@@ -1,0 +1,16 @@
+image: node:latest
+
+stages:
+  - compile_pdf
+  
+compile_pdf:
+  stage: compile_pdf
+  image: aergus/latex
+  script:
+    - cd Dokumentacija
+    - latexmk -pdf PROGI_ProjektnaDokumentacija_v6.tex
+  artifacts:
+    paths:
+      - Dokumentacija/PROGI_ProjektnaDokumentacija_v6.pdf
+  only:
+    - devdoc

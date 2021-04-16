@@ -1,0 +1,38 @@
+.udrugeTitle {
+  width: 50vw;
+  height: 17vh;
+  position: relative;
+  left: 2vw;
+  font-size: 3.2vw;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  line-height: 17vh;
+  z-index: 10 !important;
+}
+
+.paws-down-img {
+  position: relative;
+  top: 1vh;
+  left: 2vw;
+  height: 18vh;
+  width: 11vw;
+  background-image: url("./walkers.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 10 !important;
+}
+
+.udruge-header {
+  display: flex;
+  position: relative;
+  top: -2vh;
+  left: 2vw;
+  width: 90vw;
+  z-index: 10 !important;
+}
+
+.table-udruga {
+  z-index: 1 !important;
+  position: relative;
+  top: -10vh;
+}

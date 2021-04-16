@@ -1,0 +1,71 @@
+Sastanak 1
+- datum: 8. listopada 2020.
+- prisustvovali: A.Terović, A.Miletić, D.Smoljan, E.Jagodić, F.Sentinella-Jerbić, I.Pezo, K.Golub
+- teme sastanka:
+	- upoznavanje
+	- određivanje kanala komunikacije
+	- odabir teme
+	- odabir tehnologija
+
+Sastanak 2
+- datum: 15. listopada 2020.
+- prisustvovali: A.Terović, A.Miletić, D.Smoljan, E.Jagodić, F.Sentinella-Jerbić, I.Pezo, K.Golub
+- teme sastanka:
+	- definiranje funkcionalnosti
+	- raspodjela za pisanje dokumentacije
+	- tim za uspostavu baze podataka
+	- naziv aplikacije
+
+Sastanak 2.1
+- datum 17. listopad 2020.
+- prisustvovali: A.Miletić, K.Golub
+- teme sastanka:
+	- izrada generalnog modela baze
+
+Sastanak 2.2
+- datum 20. listopad 2020.
+- prisustvovali: A.Terović, A.Miletić, K.Golub, E.Jagodić
+- teme sastanka:
+	- review modela baze i dorade
+
+Sastanak 2.3
+- datum 20. listopad 2020.
+- prisustvovali: F.Sentinella-Jerbić, I.Pezo
+- teme sastanka:
+	- detaljna razrada i zapisivanje funkcionalnih zahtjeva
+
+Sastanak 3
+- datum 22. listopad 2020.
+- prisustvovali: A.Terović, A.Miletić, D.Smoljan, E.Jagodić, F.Sentinella-Jerbić, I.Pezo, K.Golub
+- teme sastanka:
+	- dodatne razrade funkcionalnosti
+	- podjela u timove za backend i frontend
+	- raspored stranica
+
+Sastanak 3.1
+- datum 26. listopad 2020.
+- prisustvovali: A.Terović, A.Miletić, I.Pezo
+- teme sastanka:
+	- podjela i dogovor oko posla na frontendu
+	- razmjena informacija o tehnologijama
+
+Sastanak 3.2
+- datum 28. listopad 2020.
+- prisustvovali: A.Terović, A.Miletić, E.Jagodić, F.Sentinella-Jerbić, K.Golub
+- teme sastanka:
+	- dodatno definiranje izgleda i rasporeda funkcionalnosti na stranici
+
+Sastanak 4
+- datum 3. studeni 2020.
+- prisustvovali: A.Terović, A.Miletić, D.Smoljan, E.Jagodić, F.Sentinella-Jerbić, I.Pezo, K.Golub
+- teme sastanka:
+	- predstavljanje obavljenog na frontendu i backendu i dogovor oko nastavka rada
+	- podjela posljednjih zadataka prije prve predaje
+	- razmjena informacija o tehnologijama
+
+Sastanak 5
+- datum 11. studeni 2020.
+- prisustvovali: A.Terović, A.Miletić, D.Smoljan, E.Jagodić, F.Sentinella-Jerbić, I.Pezo, K.Golub
+- teme sastanka:
+	- predstavljanje obavljenog na frontendu i backendu
+	- dogovoranje oko posljednjih promjena prije prve predaje

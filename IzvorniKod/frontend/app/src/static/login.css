@@ -1,0 +1,43 @@
+input {
+  margin-top: 10px !important;
+}
+
+.container {
+  align-items: center;
+  text-align: center;
+}
+.lead {
+  max-width: 40%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+}
+
+.form {
+  padding-top: 10%;
+  font-family: "Rubik", sans-serif;
+}
+
+.title-log {
+  font-size: 30px;
+  -webkit-text-stroke: 0.2px black;
+}
+
+.space {
+  margin-right: 18px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.next {
+  background-color: white;
+}
+
+.darker {
+  background:
+        /* top, transparent black, faked with gradient */ linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+}
