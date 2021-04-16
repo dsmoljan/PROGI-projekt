@@ -1,31 +1,32 @@
-# Upute za lokalno pokretanje
+# Instructions for local startup
 
-Aplikacija je podijeljena na backend i frontend. Trenutno su oba dijela pripremljena za kontinuirani deploy na Heroku,
-tako da se lokalnim pokretanjem frontenda zahtjevi se šalju na deployani backend, osim ako se ekplicitno ne preusmjere na lokalni backend.
+Application is divided into backend and frontend. Currently, both parts are prepared for CI/CD to Heroku, 
+so if frontend is started locally, requests are sent to deployed backend, unless explicitly redirected to local backend.
 
-## Pokretanje frontenda
-
-Za pokretanje iz naredbenog retka potrebno se pozicionirati u direktorij IzvorniKod\frontend\app\src i u njemu izvesti sljedeće naredbe.
+## Frontend startup
+To start frontend from the command line, go to directory IzvorniKod\frontend\app\src and execute the following commands:
 
 ### `npm install`
 
-Naredba instalira sve potrebne node_modules potrebne za pokretanje aplikacije.
+The command installs all neccessary node_modules required for the frontend part of the app to run.
 
 ### `npm start`
 
-Pokreće aplikaciju na [http://localhost:3000](http://localhost:3000).
+Starts the application on [http://localhost:3000](http://localhost:3000).
 
+The page is reloaded with every saved change in the code.\
 Stranica se ponovno učitava svakom spremljenom promjenom u kodu.\
 You will also see any lint errors in the console.
 
-### Slanje zahtjeva na lokalni backend
+### Sending requests to local backend
 
-U slučaju slanja zahtjeva na lokalni backend, u kodu se moraju zamijeniti svi dijelovi u kojem se zahtjevi šalju na adresu deployanog backenda na [http://localhost:8080](http://localhost:8080).
+In case you want to send request to backend part deployed locally, you need to change all parts of the code which send requests to deployed backend (something like backend.herokuapp.com) to [http://localhost:8080](http://localhost:8080).
 
-## Pokretanje backenda
+## Backend startup
 
-Za pokretanje iz naredbenog retka potrebno se pozicionirati u direktorij IzvorniKod\backend\src\main\java\hr\fer\progi\dogGO i u njemu izvesti sljedeću naredbu.
+To start backend from the command line, go to directory IzvorniKod\backend\src\main\java\hr\fer\progi\dogGO and execute the following command:
 
 ### `mvn spring-boot:run`
 
-Pokreće aplikaciju na [http://localhost:8080](http://localhost:8080).
+The command starts up the backend part of the app on [http://localhost:8080](http://localhost:8080).
+
