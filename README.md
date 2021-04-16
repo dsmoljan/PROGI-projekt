@@ -15,7 +15,6 @@ The command installs all neccessary node_modules required for the frontend part 
 Starts the application on [http://localhost:3000](http://localhost:3000).
 
 The page is reloaded with every saved change in the code.\
-Stranica se ponovno učitava svakom spremljenom promjenom u kodu.\
 You will also see any lint errors in the console.
 
 ### Sending requests to local backend
